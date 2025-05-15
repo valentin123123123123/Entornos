@@ -8,7 +8,7 @@ class CuentaBancaria
 	private double TipoIntereses;
 		
 	//Metodos
-	
+	//Cambios del punto 11
 	public CuentaBancaria(String numCuenta,String nomTitular,double saldo, double tipoIntereses){
 		this.numCuenta = numCuenta;
 		this.nomTitular = nomTitular;
@@ -33,6 +33,7 @@ class CuentaBancaria
 	}
 	
 	///////////////////////////////////////////////////////////////////////////
+	//Cambios del punto 11
 	public void setTipoIntereses(double tipo){
 		this.TipoIntereses=tipo;
 	}
@@ -61,6 +62,7 @@ class CuentaBancaria
 	}
 	
 	////////////////////////////////////////////////////////////////////////////
+	//Cambios del punto 11
 	public double getTipoIntereses(){
 		return TipoIntereses;
 	}	
